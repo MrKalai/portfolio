@@ -106,7 +106,7 @@ body.has-spotlight:before {
     top: 0;
     width: 100vh;
     height: 100vh;
-    background: radial-gradient(ellipse at left top, #28282E 0%,#000000 70%);
+    background: radial-gradient(ellipse at left top, #1d0034 0%,#000000 70%);
 }
 
 /* --- Overlays --- */
@@ -465,7 +465,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #ffffff;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .ashade-albums-slider-wrap .ashade-album-item__explore a span,
 .ashade-counter-label,
@@ -485,7 +485,7 @@ h6 span {
     color: #5C5C60;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .is-dropcap::first-letter,
 h1 {
@@ -689,7 +689,7 @@ input[type="submit"] {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #ffffff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 14px;
     line-height: 16px;
     cursor: pointer;
@@ -893,7 +893,7 @@ nav.ashade-nav ul li a {
     line-height: 29px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: capitalize;
     display: block;
     letter-spacing: 0.6px;
 }
@@ -1243,7 +1243,7 @@ footer#ashade-footer {
 	margin: 0;
 }
 .ashade-footer__copyright {
-    text-transform: uppercase;
+    text-transform: capitalize;
     cursor: default;
 }
 
@@ -1255,7 +1255,7 @@ aside#ashade-aside {
 	top: 0;
 	width: 384px;
 	height: 100%;
-	background: #17171B;
+	background: #15041e;
     display: block;
 	z-index: 333;
 	pointer-events: none;
@@ -1265,7 +1265,7 @@ aside#ashade-aside {
 .ashade-aside-close {
 	font-size: 14px;
 	line-height: 18px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	transform-origin: 100% 50%;
 	position: absolute;
 	left: 0%;
@@ -1354,7 +1354,7 @@ a.ashade-learn-more {
 	display: inline-block;
 	font-size: 12px;
 	line-height: 20px;
-	text-transform: uppercase
+	text-transform: capitalize
 }
 a.ashade-learn-more:after {
 	content: '\f112';
@@ -2044,7 +2044,7 @@ body.ashade-aside-shown .ashade-home-link-wrap {
 }
 .ashade-albums-slider-wrap .ashade-album-item__explore a {
 	display: inline-block;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 .ashade-albums-slider-wrap .ashade-album-item__explore a span,
 .ashade-albums-slider-wrap .ashade-album-item__title h2 span {
@@ -2170,7 +2170,7 @@ a.ashade-lightbox-link:hover img {
    ------------ */
 a.ashade-more-link {
 	display: inline-block;
-	text-transform: uppercase
+	text-transform: capitalize
 }
 a.ashade-more-link:after {
 	content: '\f112';
@@ -2523,7 +2523,7 @@ p.ashade-intro {
 #ashade-coming-soon span {
 	display: block;
 	color: #5C5C60;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	margin: -4px 0 0 0;
 	font-weight: 700;
 }
