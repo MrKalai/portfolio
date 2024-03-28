@@ -158,7 +158,17 @@ ashade.cursor = {
 			}
 			jQuery(this).on('mouseleave', function() {
 				ashade.cursor.$el.removeClass('int-link int-lightbox');
-			});			
+			});	
+			
+			if (jQuery(this).hasClass('ashade-lightbox-link1')) {
+				ashade.cursor.$el.addClass('int-lightbox');
+			} else {
+				ashade.cursor.$el.addClass('int-link');
+			}
+			jQuery(this).on('mouseleave', function() {
+				ashade.cursor.$el.removeClass('int-link int-lightbox');
+			});	
+
 		}).on('mouseenter', 'button', function() {
 			ashade.cursor.$el.addClass('int-link');
 			jQuery(this).on('mouseleave', function() {

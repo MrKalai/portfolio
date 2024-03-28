@@ -2131,6 +2131,21 @@ a.ashade-lightbox-link:hover img {
 	transform: scale(1.05);
 }
 
+a.ashade-lightbox-link1 {
+	display: block;
+	overflow: hidden;
+}
+
+.ashade-justified-gallery.justified-gallery > .entry-visible > img, 
+.ashade-justified-gallery.justified-gallery > .entry-visible > a.ashade-lightbox-link1 > img,
+a.ashade-lightbox-link1 img {
+	transition: transform 0.3s, opacity 0.5s;
+}
+
+a.ashade-lightbox-link1:hover img {
+	transform: scale(1.05);
+}
+
 /* --- Bricks Layout --- */
 .ashade-gallery-bricks {
 	display: flex;
