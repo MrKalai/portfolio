@@ -547,7 +547,7 @@ h5 {
 h5 span {
     font-size: 10px;
     line-height: 15px;
-    margin: 0 0 0 0;
+    margin: 20px 0 5px 0;
 }
 h6 {
     font-size: 20px;
@@ -1594,7 +1594,7 @@ body.ashade-aside-shown .ashade-home-link-wrap {
 	width: calc(100% - 40px);
 }
 .ashade-grid-2cols .ashade-grid-item {
-	width: calc(50% - 40px);
+	width: calc(50% - 50px);
 }
 .ashade-grid-3cols .ashade-grid-item {
 	width: calc(33.33% - 40px);
@@ -1666,8 +1666,8 @@ body.ashade-aside-shown .ashade-home-link-wrap {
 	transform: scale(1.05);
 }
 .ashade-album-item h5 {
-	margin: 0 0 -5px 0;
-	padding: 15px 0 0 0;
+	margin: 0 0 15px 0;
+	padding: 0 0 0 0;
 }
 
 /* --- Albums Carousel --- */

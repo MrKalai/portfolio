@@ -8,6 +8,8 @@ body section.ashade-section.hide-on-desktop {
 	display: none;
 }
 
+
+
 /* Content Resizer */
 @media only screen and (max-width: 1800px) {
     .ashade-content {
